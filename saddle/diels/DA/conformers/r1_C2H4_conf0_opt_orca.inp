@@ -1,0 +1,23 @@
+! LooseOpt PBE0 RIJCOSX D3BJ def2-SVP def2/J 
+%geom MaxIter 10 end
+%output 
+xyzfile=True 
+end 
+%scf 
+maxiter 250 
+end
+%output
+Print[P_Hirshfeld] = 1
+end
+% maxcore
+4000
+%pal nprocs 8
+end
+*xyz 0 1
+C   -0.62391997  -0.20474920  -0.04877077 
+C    0.62310764   0.20552136   0.05061959 
+H   -1.38619338   0.39406992  -0.52111201 
+H   -0.94274233  -1.16064463   0.33487207 
+H    1.38611430  -0.39370741   0.51974780 
+H    0.94353375   1.15950996  -0.33545668 
+*

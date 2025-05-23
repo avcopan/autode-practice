@@ -175,7 +175,4 @@ cython_debug/
 
 # autodE files
 .autode_calculations
-*.xyz
-*.inp
-*.out
 

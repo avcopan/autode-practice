@@ -1,0 +1,22 @@
+! Opt PBE0 RIJCOSX D3BJ def2-SVP def2/J 
+%output 
+xyzfile=True 
+end 
+%scf 
+maxiter 250 
+end
+%output
+Print[P_Hirshfeld] = 1
+end
+% maxcore
+4000
+%pal nprocs 8
+end
+*xyz 0 1
+C   -0.62998993  -0.20728924  -0.05023884 
+C    0.62971735   0.20722964   0.05016396 
+H   -1.40219792   0.40320815  -0.52875135 
+H   -0.95152668  -1.17741705   0.34152644 
+H    1.40217587  -0.40302037   0.52864457 
+H    0.95172132   1.17728887  -0.34144479 
+*
