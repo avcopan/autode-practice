@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# autodE files
+.autode_calculations
+*.xyz
+*.inp
+*.out
+
